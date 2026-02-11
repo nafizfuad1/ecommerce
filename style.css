@@ -284,6 +284,71 @@ hr {
   align-items: center;
 }
 
+#card-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin: 20px 0px;
+  justify-content: space-between;
+}
+
+.product-card {
+  width: 282px;
+}
+
+.card-image {
+  position: relative;
+}
+.badge,
+.wishlist {
+  z-index: 2;
+}
+
+.main-img {
+  width: 100%;
+  display: block;
+}
+.badge {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  background: #ffffff;
+  padding: 8px 12px;
+  font-size: 10px;
+  letter-spacing: 2px;
+}
+.wishlist {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+}
+.wishlist img {
+  width: 22px;
+  cursor: pointer;
+}
+.card-content {
+  padding: 15px 0px;
+}
+.title-price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.product-title {
+  font-size: 14px;
+}
+.price {
+  font-size: 14px;
+}
+.more-colors {
+  margin-top: 8px;
+  font-size: 13px;
+  color: #555;
+}
+#hr-full {
+  width: 100%;
+}
 /* collection slider responsive  */
 @media screen and (max-width: 768px) {
   .card-wrapper {
