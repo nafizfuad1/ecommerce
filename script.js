@@ -221,7 +221,7 @@ new Swiper(".card-wrapper", {
 // product card code
 function showProducts() {
   for (let product of products) {
-    console.log(product);
+    // console.log(product);
     const productCard = document.createElement("div");
     productCard.innerHTML = `
     <div class="product-card">
@@ -261,8 +261,31 @@ document
   .getElementById("new-home-button")
   .addEventListener("click", function (e) {
     const existingSection = document.getElementsByClassName("existing");
+    console.log(existingSection);
+    for (let section of existingSection) {
+      section.style.display = "none";
+    }
+    document.getElementById("home").style.display="block"
   });
 // product shop page
-document.getElementById("shop-button");
+document
+  .getElementById("shop-button")
+  .addEventListener("click", function (e) {
+    const existingSection = document.getElementsByClassName("existing");
+    console.log(existingSection);
+    for (let section of existingSection) {
+      section.style.display = "none";
+    }
+    document.getElementById("shop").style.display="block"
+  });
 // cashmere details page
-document.getElementById("cashmere-button");
+document
+  .getElementById("cashmere-button")
+  .addEventListener("click", function (e) {
+    const existingSection = document.getElementsByClassName("existing");
+    console.log(existingSection);
+    for (let section of existingSection) {
+      section.style.display = "none";
+    }
+    document.getElementById("details").style.display="block"
+  });

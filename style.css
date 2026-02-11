@@ -389,36 +389,41 @@ footer hr {
   justify-content: space-between;
   font-size: 10px;
 }
-select{
+select {
   width: 100%;
   padding: 15px 20px;
   margin: 10px 0px;
   font-size: 11px;
 }
-#bagbtn{
+#bagbtn {
   width: 100%;
   margin-bottom: 50px;
 }
-.heart-add{
+.heart-add {
   display: flex;
   align-items: center;
   gap: 10px;
   justify-content: center;
   font-size: 15px;
 }
-hr{
+hr {
   margin: 20px 0px;
 }
-.view-heading{
+.view-heading {
   font-size: 25px;
   font-weight: bold;
   text-align: center;
   margin-top: 50px;
   margin-bottom: 30px;
 }
-.recent-view{
+.recent-view {
   display: flex;
   gap: 20px;
+}
+
+#shop,
+#details {
+  display: none;
 }
 /* collection slider responsive  */
 @media screen and (max-width: 768px) {
