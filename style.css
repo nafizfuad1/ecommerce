@@ -142,7 +142,7 @@ body {
 footer {
   margin: 100px 0px;
 }
-hr {
+footer hr {
   margin: 30px auto;
   width: 90%;
 }
@@ -348,6 +348,77 @@ hr {
 }
 #hr-full {
   width: 100%;
+}
+
+/* details cashmere style  */
+.upper-details {
+  display: flex;
+}
+.details-left {
+  flex: 2;
+}
+.details-right {
+  flex: 1;
+  padding: 20px 26px;
+}
+.path {
+  color: #777777;
+}
+.right-title {
+  font-size: 24px;
+  font-weight: 600;
+  margin-top: 20px;
+}
+.right-price {
+  font-size: 22px;
+  font-weight: 600;
+}
+#right-hr {
+  width: 100%;
+}
+.right-para {
+  margin: 35px 0px;
+  font-size: 12px;
+}
+.fit {
+  font-size: 12px;
+  margin-bottom: 25px;
+}
+.inner-right {
+  display: flex;
+  justify-content: space-between;
+  font-size: 10px;
+}
+select{
+  width: 100%;
+  padding: 15px 20px;
+  margin: 10px 0px;
+  font-size: 11px;
+}
+#bagbtn{
+  width: 100%;
+  margin-bottom: 50px;
+}
+.heart-add{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: center;
+  font-size: 15px;
+}
+hr{
+  margin: 20px 0px;
+}
+.view-heading{
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+.recent-view{
+  display: flex;
+  gap: 20px;
 }
 /* collection slider responsive  */
 @media screen and (max-width: 768px) {

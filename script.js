@@ -218,6 +218,7 @@ new Swiper(".card-wrapper", {
   },
 });
 
+// product card code
 function showProducts() {
   for (let product of products) {
     console.log(product);
@@ -252,3 +253,16 @@ function showProducts() {
 }
 
 showProducts();
+
+// section wise content code
+
+// home page
+document
+  .getElementById("new-home-button")
+  .addEventListener("click", function (e) {
+    const existingSection = document.getElementsByClassName("existing");
+  });
+// product shop page
+document.getElementById("shop-button");
+// cashmere details page
+document.getElementById("cashmere-button");
