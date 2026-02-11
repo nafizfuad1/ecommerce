@@ -70,15 +70,54 @@ body {
   flex: 9;
 }
 
-.hero-heading{
-    font-size: 33px;
-    margin-bottom: 20px;
+.hero-heading {
+  font-size: 33px;
+  margin-bottom: 40px;
 }
-.primary-btn{
-    font-size: 18px;
-    font-weight: bold;
-    color: #fff;
-    background-color: black;
-    padding: 15px 40px;
-    margin-top: 20px;
+.primary-btn {
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff;
+  background-color: black;
+  padding: 15px 40px;
+}
+
+/* collection section style  */
+
+.collection-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: auto;
+  margin: 20px 0px;
+}
+
+.card-list .card-item .card-img {
+  user-select: none;
+}
+
+.card-wrapper {
+  max-width: 1400px;
+  margin: 0 60px 35px;
+  padding: 20px 10px;
+  overflow: hidden;
+}
+
+.swiper-button-prev{
+  color: black;
+}
+.swiper-button-next{
+  color: black;
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+  .card-wrapper {
+    margin: 0 10px 25px;
+  }
 }
