@@ -53,7 +53,7 @@ body {
 /* hero section style  */
 .hero {
   height: 630px;
-  background: url("./img/bg1.png");
+  background: url("./img/bg1.png") no-repeat center center/ cover;
   margin: 15px;
   display: flex;
 }
@@ -103,19 +103,84 @@ body {
   overflow: hidden;
 }
 
-.swiper-button-prev{
+.swiper-button-prev {
   color: black;
 }
-.swiper-button-next{
+.swiper-button-next {
   color: black;
 }
 
+/* offer sign up style here  */
+.offer {
+  height: 513px;
+  background: url("./img/bg2.png") no-repeat center center/ cover;
+  margin: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.offer-heading {
+  font-size: 33px;
+  margin-bottom: 40px;
+  color: #fff;
+}
+.offer-content {
+  margin-right: 52px;
+}
 
+.sample ul {
+  display: flex;
+  justify-content: space-around;
+  margin: 70px 0px;
+}
 
+.sample ul li {
+  list-style: none;
+}
 
+/* footer section style  */
+hr {
+  margin: 30px auto;
+  width: 90%;
+}
+.hr-content {
+  width: 80%;
+  margin: 0px auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.hr-content ul {
+  display: flex;
+  gap: 23px;
+  justify-content: center;
+  align-items: center;
+}
+.hr-content ul li {
+  list-style: none;
+}
+.mail-heading {
+  font-size: 15px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+.hr-btn {
+  font-size: 10px;
+  font-weight: bold;
+  color: #fff;
+  background-color: black;
+  height: 30px;
+  width: 97px;
+}
+.input-field {
+  height: 30px;
+  border: none;
+  border-bottom: black 1px solid;
+  outline: none;
+  width: 279px;
+}
 
-
-
+/* collection slider responsive  */
 @media screen and (max-width: 768px) {
   .card-wrapper {
     margin: 0 10px 25px;
