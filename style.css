@@ -139,7 +139,7 @@ body {
 }
 
 /* footer section style  */
-footer{
+footer {
   margin: 100px 0px;
 }
 hr {
@@ -215,6 +215,75 @@ hr {
 .copy {
   color: #777777;
 }
+
+/* cashmere style here  */
+.cashmere {
+  width: 95%;
+  margin: 50px auto;
+}
+.chashmere-sec {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+.cashmenu {
+  flex: 1;
+}
+.cashmenu ul li {
+  list-style: none;
+  margin-bottom: 10px;
+  color: #777777;
+}
+.cash-middle {
+  flex: 5;
+}
+.cashmere-end {
+  flex: 1;
+}
+.cashm {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+.cashmere-title {
+  font-size: 12px;
+}
+.cashmere-sort {
+  font-size: 10px;
+  font-weight: bold;
+}
+.cashmere-title-color {
+  color: #777777;
+}
+.downarrow {
+  color: black;
+  /* margin-left: 10px; */
+}
+.sort {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.cashmere-content {
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+}
+.filter-list ul {
+  display: flex;
+  justify-content: start;
+}
+.filter-list ul li {
+  list-style: none;
+  margin-right: 15px;
+}
+.filter-list ul li a {
+  text-decoration: none;
+  color: black;
+  display: flex;
+  align-items: center;
+}
+
 /* collection slider responsive  */
 @media screen and (max-width: 768px) {
   .card-wrapper {
