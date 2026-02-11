@@ -139,6 +139,9 @@ body {
 }
 
 /* footer section style  */
+footer{
+  margin: 100px 0px;
+}
 hr {
   margin: 30px auto;
   width: 90%;
@@ -180,6 +183,38 @@ hr {
   width: 279px;
 }
 
+/* footer main section  */
+.footer-main {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.footer-main ul li {
+  list-style: none;
+  color: #777777;
+  row-gap: 10px;
+  margin-bottom: 10px;
+}
+.footer-caption {
+  font-size: 11px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+.contact {
+  font-weight: 600;
+}
+#email {
+  margin: 15px 0px;
+}
+.copyright {
+  margin: 65px auto;
+  text-align: center;
+  font-size: 11px;
+}
+.copy {
+  color: #777777;
+}
 /* collection slider responsive  */
 @media screen and (max-width: 768px) {
   .card-wrapper {
