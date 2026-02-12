@@ -64,5 +64,3 @@ Clicking **"Cashmere"** in the navbar will show the Cashmere details page.
 ---
 
 ### 🔹 Dynamic Section Switching
-  section.style.display = "none";
-}
