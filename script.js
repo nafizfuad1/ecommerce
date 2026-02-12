@@ -193,6 +193,17 @@ const products = [
   },
 ];
 
+// slider swiper
+const swiper = new Swiper(".slider-container", {
+  speed: 1300,
+  // loop: true,
+  autoplay: { deplay: 4000 },
+  navigation: {
+    prevEl: "#button-prev",
+    nextEl: "#button-next",
+  },
+});
+
 // collection card
 new Swiper(".card-wrapper", {
   loop: true,
@@ -265,19 +276,17 @@ document
     for (let section of existingSection) {
       section.style.display = "none";
     }
-    document.getElementById("home").style.display="block"
+    document.getElementById("home").style.display = "block";
   });
 // product shop page
-document
-  .getElementById("shop-button")
-  .addEventListener("click", function (e) {
-    const existingSection = document.getElementsByClassName("existing");
-    console.log(existingSection);
-    for (let section of existingSection) {
-      section.style.display = "none";
-    }
-    document.getElementById("shop").style.display="block"
-  });
+document.getElementById("shop-button").addEventListener("click", function (e) {
+  const existingSection = document.getElementsByClassName("existing");
+  console.log(existingSection);
+  for (let section of existingSection) {
+    section.style.display = "none";
+  }
+  document.getElementById("shop").style.display = "block";
+});
 // cashmere details page
 document
   .getElementById("cashmere-button")
@@ -287,5 +296,5 @@ document
     for (let section of existingSection) {
       section.style.display = "none";
     }
-    document.getElementById("details").style.display="block"
+    document.getElementById("details").style.display = "block";
   });
