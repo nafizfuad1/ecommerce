@@ -193,6 +193,16 @@ const products = [
   },
 ];
 
+// menu active class
+const menuLinks = document.querySelectorAll(".menu ul li a");
+
+menuLinks.forEach((link) => {
+  link.addEventListener("click", function () {
+    menuLinks.forEach((l) => l.classList.remove("active"));
+    this.classList.add("active");
+  });
+});
+
 // slider swiper
 const swiper = new Swiper(".slider-container", {
   speed: 1300,
